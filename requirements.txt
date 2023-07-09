@@ -1,4 +1,4 @@
-pandas_datareader==0.9.0
+pandas-datareader>=0.9.0
 absl-py==1.4.0
 altair==5.0.1
 anyio==3.7.1
@@ -90,7 +90,6 @@ opt-einsum==3.3.0
 overrides==7.3.1
 packaging==23.1
 pandas==2.0.3
-pandas-datareader==0.10.0
 pandocfilters==1.5.0
 parso==0.8.3
 pickleshare==0.7.5
