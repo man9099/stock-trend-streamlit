@@ -1,5 +1,3 @@
-from keras.models import load_model
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -51,9 +49,3 @@ ax.set_ylabel('Closing Price')
 ax.set_title(f'{user_input} Stock Closing Prices')
 ax.grid(True)
 st.pyplot(fig)
-
-
-
-
-#load my model
-model = load_model('keras_model.h5')
